@@ -11,5 +11,6 @@ import Foundation
 
 class RouteData
 {
- 
+    // Dictionary that contains the car values to be used in the program, for the protype, these values are hard-coded!
+    private var routeLibrary = [Route(origin: "Bondi Beach", destination: "Newcastle", distance: 169), Route(origin: "Melbourne", destination: "Barossa Valley", distance: 743), Route(origin: "Brisbane", destination: "Perth", distance: 4309 )]
 }
